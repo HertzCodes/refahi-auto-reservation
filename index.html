@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auto Self | رزرو خودکار</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    </head>
+    <div class="Container center">
+        <form method="post">
+        <div class='FormHolder' >
+            <span>اطلاعات خود را وارد کنید</span>
+            <input name="username" placeholder="نام کاربری" required>
+            <input type="password" name="password" placeholder="رمز عبور" required>
+            <select name="university" required>
+                <option value="" disabled selected>دانشکده خود را انتخاب کنید</option>
+                <!-- <optgroup label="خواجه نصیر الدین طوسی"> -->
+                    <option value="R.NEZHAD">
+                        پردیس رضایی نژاد
+                    </option>
+                    <option value="ELEC">
+                        برق و کامپیوتر
+                    </option>
+                    <option value="MECHANIC">
+                        مکانیک و صنایع
+                    </option>
+                    <option value="CIVIL">
+                        عمران و نقشه برداری
+                    </option>
+                    
+                <!-- </optgroup> -->
+
+                <!-- <option value= 'KNTU'>امیرکبیر</option> -->
+            </select>
+            <input id="submit" type="submit" name="submit" value="ثبت اطلاعات">
+        </div>
+            </form>
+    </div>
+    
+</html>
