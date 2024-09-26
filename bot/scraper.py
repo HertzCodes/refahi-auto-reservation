@@ -42,6 +42,6 @@ def start_scraping(args):
 
 
 if __name__ == "__main__":
-    x = [('40218473', '2051298191') for i in range(100)]
+    x = [('usr', 'pass') for i in range(100)]
     with ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(start_scraping, x)
